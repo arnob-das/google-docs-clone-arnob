@@ -3,8 +3,8 @@ import Icon from "@material-tailwind/react/Icon";
 
 function Header() {
   return (
-    <div
-      className="sticky top-0 z-50 flex items-center px-4 py-2 
+    <header
+      className="sticky top-0 z-50 flex items-center px-4 py-1 
     shadow-md bg-white"
     >
       <Button
@@ -42,12 +42,12 @@ function Header() {
         <Icon name="apps" size="3xl" color="gray" />
       </Button>
 
-      <img 
-      loading="lazy"
-      className="cursor-pointer h-12 w-12 rounded-full ml-2"
-      src="https://arnobdas.netlify.app/img/arnob_profilep.png"
+      <img
+        loading="lazy"
+        className="hidden cursor-pointer h-10 w-10 rounded-full ml-2"
+        src="https://lh3.googleusercontent.com/ogw/ADea4I4LEYk62Nz30uw2yZEI3bpwKfMYQv-qSvk10lbfvA=s32-c-mo"
       />
-    </div>
+    </header>
   );
 }
 
